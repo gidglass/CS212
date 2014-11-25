@@ -5,10 +5,6 @@ import javax.swing.*;
 public class Project0  { 
    public static int checkLetters (String wordInput, int correctLetters){
       // The loop scans the string for valid Roman Numeral characters
-
-      // TESTING ADDITION 
-      int test = 19;
-
       for (int i=0; i < wordInput.length(); i++){ 
          int letter= wordInput.charAt(i);
          // Check conditions
